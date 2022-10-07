@@ -7,10 +7,10 @@ struct bookdetail
   char name[20];
   char author[20];
   int pages;
-  float price
+  float price;
   };
   void output(struct bookdetail v[],int n);
-  void main()
+  int main()
 {
     struct bookdetail b[SIZE];
     int n,i;        
